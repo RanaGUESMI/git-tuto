@@ -60,12 +60,57 @@
     margin: 0;
     padding: 14px;
   }
-.navbar-brand{
-  font-family: Shizuru,cursive;
-}
+   }
+   .navbar-brand{
+    font-family: Shizuru,cursive;
+  }
 img {
+  margin-top: 100px;
+  height: 500px;
+}
+#cont{
+  margin-top: 100px;
+  height: 500px;
   
-  display: flex;
-  max-width: 100%;
+}
+#subsc {
+  color:white;
+  background-color: #793677;
+  box-sizing: border-box;
+  margin: 0;
+  min-width:0;
+  cursor: pointer;
+  text-align: center;
+  line-height:inherit;
+  text-rendering: auto;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius:0;
+  border: 200px;
 
 }
+#subscribe {
+  padding: 10px;
+}
+#powered{
+ height: 50px;
+
+}
+.title{
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom:20px;
+  margin-top: 100px;
+}
+p{
+  display: block;
+}
+#image{
+  width: 250px;
+  height: 200px;
+}
+#cards{
+  display: flex;
+  
+}
+
