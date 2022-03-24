@@ -1,0 +1,71 @@
+/* Style the navbar */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #02073E;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  color: #8D448B;
+}
+/* Style the input container */
+.topnav .signin-container {
+  float: right;
+}
+/* Style the input field inside the navbar */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+}
+/* Style the button inside the input container */
+.topnav .signin-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: white;
+  font-size: 17px;
+  border: solid#8d448b;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #8D448B;
+}
+.topnav .signin-container button:hover {
+  background:#8d448b;
+  color: white;
+}
+/* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav .signin-container {
+    float: none;
+  }
+  .topnav a,  .topnav .signin-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+.navbar-brand{
+  font-family: Shizuru,cursive;
+}
+img {
+  
+  display: flex;
+  max-width: 100%;
+
+}
